@@ -9,8 +9,9 @@ This project is the submission for the Course 3 (Cloud Data Warehouses) of the U
 Sparkify’s data is stored in JSON format in Amazon S3, including user activity logs and metadata on songs available in the app. The goal of this project is to design a pipeline that:
 * Extracts data from S3,
 * Stages it in Amazon Redshift,
-* Transforms it into a series of dimensional tables in a Redshift data warehouse, and
+* Transforms it into a series of fact and dimensional tables in a Redshift data warehouse, and
 * Conduct simple analysis.
+
 This structured data will enable Sparkify’s analytics team to easily query and analyze user activity.
 
 ### 1.2. Key Components
